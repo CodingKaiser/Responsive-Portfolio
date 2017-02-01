@@ -1,0 +1,227 @@
+/*GENERAL SETTINGS*/
+
+* {
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	text-decoration: none
+}
+
+hr.content {
+	border: 2px solid #dddddd;
+}
+
+hr.contact-me {
+	border: 1px solid #dddddd;
+}
+
+.body-headers {
+	color: #4aaaa5;
+}
+
+html {
+	height: 100%; /*ADDED FOR STICKY FOOTER*/
+}
+
+body {
+	height: 100%; /*ADDED FOR STICKY FOOTER*/
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../images/seigaiha.png');
+	background-repeat: repeat;
+}
+
+/* HEADER & NAVIGATION */
+
+.header-wrapper {
+	overflow: auto;
+	width: 100%;
+	background-color: #ffffff;
+	margin-bottom: 20px;
+	border-bottom: solid #dddddd
+}
+
+.header-1 {
+	position: relative;
+	overflow: auto;
+	margin: 0 auto;/* centers */
+	width: 960px;
+}
+
+header {
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	background-color: #4aaaa5;
+}
+
+.my_name {
+	color: #ffffff;
+}
+
+.nav-bar-text {
+	position: relative;
+}
+
+.navigation-bar {
+	position: absolute;
+	top: 40px;
+	right: 0px;
+	background-color: #ffffff;
+}
+
+/*MAIN CONTENT */
+
+.main-content-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	min-height: 100%; /*ADDED FOR STICKY FOOTER*/
+	height: auto; /*ADDED FOR STICKY FOOTER*/
+	margin: 0 auto -108px; /*ADDED FOR STICKY FOOTER*/
+}
+
+.about-me-content {
+	margin: 0 auto;
+	padding-bottom: 15px;
+	overflow: auto;
+	width: 960px;
+}
+
+.main-content {
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	padding: 35px;
+	width: 580px;
+	float: left;
+	background-color: #ffffff;
+	border: 0.5px solid #dddddd
+}
+
+article {
+	position: relative;
+}
+
+.connect-with-me {
+	margin-left: 15px;
+	margin-top: 15px;
+	padding: 30px;
+	width: 210px;
+	float: right;
+	background-color: #ffffff;
+	border: 0.5px solid #dddddd
+}
+
+/* FOOTER */
+
+.push { /*ADDED FOR STICKY FOOTER */
+	height: 120px;
+}
+
+footer {
+	clear: both;
+	padding: 40px;
+	background-color: #666666;
+	text-align: center;
+	border-top: solid #4aaaa5 8px;
+}
+
+.footer-copyright {
+	color: #abb5b2;
+}
+
+/* ABOUT-SPECIFIC */
+
+#prof-pic {
+	float: left;
+	margin-right: 15px;
+}
+
+.about-me-text {
+	line-height: 175%
+}
+
+/* PORTFOLIO-SPECIFIC */
+
+.image {
+	position: relative;
+	overflow: auto;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.left-alignment {
+	margin-right: 20px;
+}
+
+.right-alignment {
+	margin-left: 20px;
+}
+
+.port-image-header {
+	text-align: center;
+	position: absolute;
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+	background-color: #4aaaa5;
+	color: white;
+	top: 130px;
+	font-size: 150%;
+}
+
+/* CONTACT-SPECIFIC */
+
+input {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+textarea {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	resize: vertical;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+form {
+	position: relative;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+p.form-descriptor {
+	padding-top: 7px;
+	padding-bottom: 2px;
+}
