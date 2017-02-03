@@ -178,7 +178,6 @@ footer {
 .port-image-header {
 	text-align: center;
 	position: absolute;
-	float: left;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	width: 100%;
@@ -224,4 +223,94 @@ form {
 p.form-descriptor {
 	padding-top: 7px;
 	padding-bottom: 2px;
+}
+
+@media only screen and (max-width: 980px) {
+	#prof-pic {
+		width: 100%;
+	}
+
+	.header-1 {
+		width: 750px;
+	}
+
+	.about-me-content {
+		width: 750px;
+	}
+
+	.main-content {
+		width: 445px;
+		box-sizing: border-box;
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#prof-pic {
+		width: 200px;
+		float: left;
+	}
+
+	.header-1 {
+		width: 100%;
+	}
+
+	.about-me-content {
+		width: 100%;
+	}
+
+	.main-content {
+		margin: 15px;
+		width: auto;
+		float: none;
+	}
+
+	.connect-with-me {
+		float: none;
+		margin: 15px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#prof-pic {
+		width: 100%;
+		float: none;
+	}
+
+	.header-1 {
+		width: 100%;
+	}
+
+	header {
+		box-sizing: border-box;
+		float: none;
+		width: 100%;
+	}
+
+	.navigation-bar {
+		position: relative;
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	margin: 0 auto;
+    	top: auto;
+    	padding: 20px;
+	}
+
+	.about-me-content {
+		width: 100%;
+	}
+
+	.main-content {
+		margin: 15px;
+		width: auto;
+		float: none;
+	}
+
+	.connect-with-me {
+		float: none;
+		margin: 15px;
+		width: auto;
+	}
 }
