@@ -117,6 +117,7 @@ header {
 
 article {
 	position: relative;
+	overflow: auto;
 }
 
 .connect-with-me {
@@ -243,6 +244,21 @@ p.form-descriptor {
 		box-sizing: border-box;
 		float: left;
 	}
+
+	.image {
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.portfolio-image {
+		width: 100%;
+	}
+
+	.port-image-header {
+		bottom: 16px;
+		top: auto;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -270,7 +286,20 @@ p.form-descriptor {
 		margin: 15px;
 		width: auto;
 	}
-}
+
+	.image {
+		width: initial;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.right-alignment {
+		margin-left: 20px;
+	}
+
+	.left-alignment  {
+		margin-right: 20px;
+	}
 
 @media only screen and (max-width: 640px) {
 	#prof-pic {
