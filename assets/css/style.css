@@ -288,7 +288,7 @@ p.form-descriptor {
 	}
 
 	.image {
-		width: initial;
+		width: calc(50% - 20px);
 		margin-right: 0px;
 		margin-left: 0px;
 	}
@@ -341,5 +341,20 @@ p.form-descriptor {
 		float: none;
 		margin: 15px;
 		width: auto;
+	}
+
+	.image {
+		width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	.portfolio-image {
+		width: 100%;
+	}
+
+	.port-image-header {
+		bottom: 16px;
+		top: auto;
 	}
 }
