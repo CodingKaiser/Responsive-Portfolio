@@ -304,6 +304,7 @@ p.form-descriptor {
 @media only screen and (max-width: 640px) {
 	#prof-pic {
 		width: 100%;
+		margin: 0px;
 		float: none;
 	}
 
