@@ -115,7 +115,7 @@ header {
 	border: 0.5px solid #dddddd
 }
 
-.photo-container {
+article {
 	position: relative;
 	overflow: auto;
 }
